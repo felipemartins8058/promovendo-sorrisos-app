@@ -1,6 +1,5 @@
 //import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { AppLoading } from 'expo';
 import { StatusBar } from 'react-native';
 
 import { Poppins_600SemiBold } from '@expo-google-fonts/poppins';
@@ -15,13 +14,9 @@ export default function App() {
     OpenSans_700Bold
   });
 
-  if (!fontsLoaded) {
-    return <AppLoading/>
-  };
-
   return (
     <>
-      <StatusBar barStyle="white-content" backgroundColor="transparent" translucent/>
+      <StatusBar barStyle="white-content" backgroundColor="#6BA0F" translucent/>
       <Home/>
     </>
   );
