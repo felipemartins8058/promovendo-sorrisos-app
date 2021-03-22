@@ -1,21 +1,28 @@
 import React from 'react';
 import { View, StyleSheet, Text, Image } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
 
 const Home = () => {
-    return (
-    <View style={styles.container}>
-        <Image style={styles.image} source={require("../../assets/logo.png")}/>
-        <Text style={styles.title}>Promovendo Sorrissos</Text>
-        <RectButton style={styles.buttonPrimary} onPress={() => {}}>
-            <Text style={styles.textButtonPrimary}>Login</Text>
-        </RectButton>
-        <RectButton style={styles.buttonSecondary} onPress={() => {}}>
-          <Text style={styles.textButtonSecondary}>Conecte-se com Google</Text>
-        </RectButton>
-        <Text style={styles.text}>Não possui conta? Cadastre-se</Text>
-    </View>
-    );
+  const navigation = useNavigation();
+
+  function handleNavigateToLogin() {
+    navigation.navigate('Login');
+  };
+
+  return (
+  <View style={styles.container}>
+      <Image style={styles.image} source={require("../../assets/logo.png")}/>
+      <Text style={styles.title}>Promovendo Sorrissos</Text>
+      <RectButton style={styles.buttonPrimary} onPress={handleNavigateToLogin}>
+          <Text style={styles.textButtonPrimary}>Login</Text>
+      </RectButton>
+      <RectButton style={styles.buttonSecondary} onPress={() => {}}>
+        <Text style={styles.textButtonSecondary}>Conecte-se com Google</Text>
+      </RectButton>
+      <Text style={styles.text}>Não possui conta? Cadastre-se</Text>
+  </View>
+  );
 };
 
 const styles = StyleSheet.create({
@@ -24,7 +31,6 @@ const styles = StyleSheet.create({
       padding: 32,
       alignItems: "center",
       justifyContent: "center",
-      backgroundColor: '#fff'
     },
     title: {
       fontSize: 40,

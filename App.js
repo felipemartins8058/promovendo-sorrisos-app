@@ -5,7 +5,7 @@ import { StatusBar } from 'react-native';
 import { Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 import { OpenSans_400Regular, OpenSans_700Bold, useFonts } from '@expo-google-fonts/open-sans';
 
-import Home from './src/pages/Home';
+import Routes from './src/routes';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -16,8 +16,8 @@ export default function App() {
 
   return (
     <>
-      <StatusBar barStyle="white-content" backgroundColor="#6BA0F" translucent/>
-      <Home/>
+      <StatusBar barStyle="white-content" backgroundColor="#6BA0FF" translucent/>
+      <Routes/>
     </>
   );
 }
