@@ -6,6 +6,15 @@ O projeto Promovendo Sorrisos é um projeto de extensão vinculado a faculdade d
 O público-alvo do projeto são pessoas com espectro autista e síndromes associadas, das mais diferentes idades e ambos os sexos. Também englobando aos pais, responsáveis e educadores na inclusão da saúde bucal na rotina desse público.
 ## Equipe Crows(i)
 Caio Brandao - 473812, Evelyn Braga - 476070, Felipe Martins - 474433, Gabriel Lopes - 433400, Leticia Cardoso - 418913.
+## Interface
+- [x] Login
+- [ ] Cadastro
+- [x] Tela de Atendimento
+-- [ ] Diagnóstico
+-- [ ] Listagem de problemas
+-- [x] Mapa
+- [x] Sobre
+- [ ] Perfil
 ## Funcionalidades 
 #### Funcionalidade Básicas
 - [ ] Filtrar
