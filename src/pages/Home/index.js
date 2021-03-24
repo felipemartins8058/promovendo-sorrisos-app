@@ -2,12 +2,14 @@ import React from 'react';
 import { View, StyleSheet, Text, Image } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
+import { FontAwesome as Icon } from '@expo/vector-icons';
+
 
 const Home = () => {
   const navigation = useNavigation();
 
   function handleNavigateToLogin() {
-    navigation.navigate('Login');
+    navigation.navigate('Atendimento');
   };
 
   return (
@@ -18,7 +20,7 @@ const Home = () => {
           <Text style={styles.textButtonPrimary}>Login</Text>
       </RectButton>
       <RectButton style={styles.buttonSecondary} onPress={() => {}}>
-        <Text style={styles.textButtonSecondary}>Conecte-se com Google</Text>
+        <Text style={styles.textButtonSecondary}><Icon name="google" color="#000" size={24} />  Conecte-se com Google</Text>
       </RectButton>
       <Text style={styles.text}>Não possui conta? Cadastre-se</Text>
   </View>
