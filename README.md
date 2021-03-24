@@ -8,7 +8,7 @@ O público-alvo do projeto são pessoas com espectro autista e síndromes associ
 Caio Brandao - 473812, Evelyn Braga - 476070, Felipe Martins - 474433, Gabriel Lopes - 433400, Leticia Cardoso - 418913.
 ## Interface
 - [x] Login
-- [ ] Cadastro
+- [x] Cadastro
 - [x] Tela de Atendimento
 - [ ] Diagnóstico
 - [ ] Listagem de problemas
