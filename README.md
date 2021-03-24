@@ -1,6 +1,8 @@
 # Promovendo Sorrisos
 #### Status: Em construção
 Aplicação construída para o projeto Promovendo Sorrisos, com a finalidade de identificar situações de urgencia e emergencia, além de direcionar o atendimento para locais especificos de tratamento.
+Link para baixar o executável apk: https://expo.io/artifacts/0de3cfb3-1af3-45be-8c5b-e627d0c74bd8
+Vídeo de demonstração do executável: https://drive.google.com/drive/folders/1IRdmIVMhgDUV_gowNyOZv6vjXBz9okoo?usp=sharing
 ## Cliente: Projeto Promovendo Sorrisos
 O projeto Promovendo Sorrisos é um projeto de extensão vinculado a faculdade de odontologia (ufc), ativo desde o ano de 2012 e com o objetivo de promoção em saúde bucal, seja educando pacientes com autismo e pais, educadores e cuidadores para que gere qualidade de vida, prevenção odontológica e inclusão desses pacientes no ambiente odontológico.
 O público-alvo do projeto são pessoas com espectro autista e síndromes associadas, das mais diferentes idades e ambos os sexos. Também englobando aos pais, responsáveis e educadores na inclusão da saúde bucal na rotina desse público.
