@@ -9,6 +9,8 @@ import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Atendimento from './pages/Atendimento';
 import Sobre from './pages/Sobre';
+import Pontos from './pages/Pontos';
+import Perfil from './pages/Perfil';
 
 const AppStack = createStackNavigator();
 const Tab = createMaterialBottomTabNavigator();
@@ -21,32 +23,32 @@ function Footer() {
         barStyle={{ backgroundColor: "#6BA0FF" }}
       >
         <Tab.Screen
+          name="Perfil"
+          component={Perfil}
+          options={{
+            tabBarLabel: "Perfil",
+            tabBarIcon: ({ color }) => (
+              <Icon name="user" color={color} size={20} />
+            ),
+          }}
+        />
+        <Tab.Screen
           name="Atendimento"
           component={Atendimento}
           options={{
             tabBarLabel: "Atendimento",
             tabBarIcon: ({ color }) => (
-              <Icon name="star" color={color} size={20} />
+              <Icon name="tooth" color={color} size={20} />
             ),
           }}
         />
         <Tab.Screen
-          name="Login"
-          component={Login}
+          name="Sobre"
+          component={Sobre}
           options={{
-            tabBarLabel: "Login",
+            tabBarLabel: "Sobre",
             tabBarIcon: ({ color }) => (
-              <Icon name="star" color={color} size={20} />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="Home"
-          component={Home}
-          options={{
-            tabBarLabel: "Home",
-            tabBarIcon: ({ color }) => (
-              <Icon name="star" color={color} size={20} />
+              <Icon name="puzzle-piece" color={color} size={20} />
             ),
           }}
         />
@@ -67,6 +69,8 @@ const Routes = () => {
                 <AppStack.Screen name="Cadastro" component={Cadastro} />
                 <AppStack.Screen name="Atendimento" component={Footer} />
                 <AppStack.Screen name="Sobre" component={Sobre} />
+                <AppStack.Screen name="Pontos" component={Pontos} />
+                <AppStack.Screen name="Perfil" component={Perfil} />
             </AppStack.Navigator>
         </NavigationContainer>
     );

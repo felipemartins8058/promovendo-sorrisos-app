@@ -4,6 +4,12 @@ import { RectButton } from "react-native-gesture-handler";
 import { useNavigation } from "@react-navigation/native";
 
 const Atendimento = () => {
+  const navigation = useNavigation();
+
+  function handleNavigateToPontos() {
+    navigation.navigate("Pontos");
+  }
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Atendimento</Text>
@@ -23,7 +29,7 @@ const Atendimento = () => {
         </View>
       </RectButton>
 
-      <RectButton style={styles.buttonCard} onPress={() => {}}>
+      <RectButton style={styles.buttonCard} onPress={handleNavigateToPontos}>
         <View style={styles.buttonCardTextSide}>
           <Text style={styles.textButtonCardPrimary}>Mapa de Locais</Text>
           <Text style={styles.textButtonCardSecondary}>

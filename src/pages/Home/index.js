@@ -17,10 +17,10 @@ const Home = () => {
       <Image style={styles.image} source={require("../../assets/logo.png")}/>
       <Text style={styles.title}>Promovendo Sorrissos</Text>
       <RectButton style={styles.buttonPrimary} onPress={handleNavigateToLogin}>
-          <Text style={styles.textButtonPrimary}>Login</Text>
+          <Text style={styles.textButtonPrimary}>Entrar</Text>
       </RectButton>
       <RectButton style={styles.buttonSecondary} onPress={() => {}}>
-        <Text style={styles.textButtonSecondary}><Icon name="google" color="#000" size={24} />  Conecte-se com Google</Text>
+        <Text style={styles.textButtonSecondary}><Icon name="google" color="#000" size={24} />    Conecte-se com Google</Text>
       </RectButton>
       <Text style={styles.text}>Não possui conta? Cadastre-se</Text>
   </View>

@@ -8,8 +8,6 @@ import {
   ScrollView,
 } from "react-native";
 
-import Footer from "../Footer";
-
 const Sobre = () => {
   return (
     <>
