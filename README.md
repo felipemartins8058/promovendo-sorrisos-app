@@ -10,9 +10,9 @@ Caio Brandao - 473812, Evelyn Braga - 476070, Felipe Martins - 474433, Gabriel L
 - [x] Login
 - [ ] Cadastro
 - [x] Tela de Atendimento
--- [ ] Diagnóstico
--- [ ] Listagem de problemas
--- [x] Mapa
+- [ ] Diagnóstico
+- [ ] Listagem de problemas
+- [x] Mapa
 - [x] Sobre
 - [ ] Perfil
 ## Funcionalidades 
