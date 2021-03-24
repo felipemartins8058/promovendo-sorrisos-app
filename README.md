@@ -19,7 +19,7 @@ Caio Brandao - 473812, Evelyn Braga - 476070, Felipe Martins - 474433, Gabriel L
 #### Funcionalidade Básicas
 - [ ] Filtrar
 - [ ] Localizar usuário (Geolocalização)
-- [x] Gerenciar perfil do usuário
+- [x] Gerenciar perfil do usuário (https://github.com/felipemartins8058/promovendo-sorrisos-with-firebase)
 #### Funcionalidade Fundamentais
 - [ ] Efetuar diagnóstico
 #### Funcionalidade de Saída
