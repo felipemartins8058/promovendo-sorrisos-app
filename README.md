@@ -20,7 +20,7 @@ Caio Brandao - 473812, Evelyn Braga - 476070, Felipe Martins - 474433, Gabriel L
 - [ ] Perfil
 ## Funcionalidades 
 #### Funcionalidade Básicas
-- [ ] Filtrar
+- [x] Filtrar
 - [x] Localizar usuário - Geolocalização (https://github.com/CaioBrandz/geo/blob/main/App.js) - Problema de visualização - conflito com expo
 
 - [x] Gerenciar perfil do usuário (https://github.com/felipemartins8058/promovendo-sorrisos-with-firebase) - Problema de visualização - conflito com expo
