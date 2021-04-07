@@ -7,25 +7,26 @@ O público-alvo do projeto são pessoas com espectro autista e síndromes associ
 ## Equipe Crows(i)
 Caio Brandao - 473812, Evelyn Braga - 476070, Felipe Martins - 474433, Gabriel Lopes - 433400, Leticia Cardoso - 418913.
 ## Executável
-#### Link para baixar o executável apk: https://expo.io/artifacts/0de3cfb3-1af3-45be-8c5b-e627d0c74bd8
-#### Vídeo de demonstração do executável: https://drive.google.com/drive/folders/1IRdmIVMhgDUV_gowNyOZv6vjXBz9okoo?usp=sharing
+#### Link para baixar o executável apk: 
+#### Vídeo de demonstração do executável: 
 ## Interface
 - [x] Login
 - [x] Cadastro
 - [x] Tela de Atendimento
 - [ ] Diagnóstico
-- [ ] Listagem de problemas
+- [x] Listagem de problemas
 - [x] Mapa
 - [x] Sobre
 - [ ] Perfil
 ## Funcionalidades 
 #### Funcionalidade Básicas
 - [ ] Filtrar
-- [ ] Localizar usuário (Geolocalização)
-- [x] Gerenciar perfil do usuário (https://github.com/felipemartins8058/promovendo-sorrisos-with-firebase)
+- [x] Localizar usuário - Geolocalização (https://github.com/CaioBrandz/geo/blob/main/App.js) --Problema de visualização - conflito com expo
+- [x] Gerenciar perfil do usuário (https://github.com/felipemartins8058/promovendo-sorrisos-with-firebase) --Problema de visualização - conflito com expo
 #### Funcionalidade Fundamentais
 - [ ] Efetuar diagnóstico
 #### Funcionalidade de Saída
 - [ ] Gerar diagnóstico
-- [ ] Ver listagem de problemas odontologicos
+- [x] Ver informações da tela sobre
+- [x] Ver listagem de problemas odontologicos
 - [x] Gerar visulização do mapa
