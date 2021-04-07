@@ -11,6 +11,7 @@ import Atendimento from './pages/Atendimento';
 import Sobre from './pages/Sobre';
 import Pontos from './pages/Pontos';
 import Perfil from './pages/Perfil';
+import Doencas from './pages/Doencas';
 
 const AppStack = createStackNavigator();
 const Tab = createMaterialBottomTabNavigator();
@@ -64,6 +65,7 @@ const Routes = () => {
                     backgroundColor: '#FFFFFF',
                 }
             }}>
+              <AppStack.Screen name="Doencas" component={Doencas} />
                 <AppStack.Screen name="Home" component={Home} />
                 <AppStack.Screen name="Login" component={Login} />
                 <AppStack.Screen name="Cadastro" component={Cadastro} />
@@ -71,6 +73,7 @@ const Routes = () => {
                 <AppStack.Screen name="Sobre" component={Sobre} />
                 <AppStack.Screen name="Pontos" component={Pontos} />
                 <AppStack.Screen name="Perfil" component={Perfil} />
+                
             </AppStack.Navigator>
         </NavigationContainer>
     );

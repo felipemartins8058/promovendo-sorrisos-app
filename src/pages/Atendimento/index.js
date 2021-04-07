@@ -10,6 +10,10 @@ const Atendimento = () => {
     navigation.navigate("Pontos");
   }
 
+  function handleNavigateToDoencas() {
+    navigation.navigate("Doencas");
+  }
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Atendimento</Text>
@@ -44,7 +48,7 @@ const Atendimento = () => {
         </View>
       </RectButton>
 
-      <RectButton style={styles.buttonCard} onPress={() => {}}>
+      <RectButton style={styles.buttonCard} onPress={handleNavigateToDoencas}>
         <View style={styles.buttonCardTextSide}>
           <Text style={styles.textButtonCardPrimary}>Lista de Doenças</Text>
           <Text style={styles.textButtonCardSecondary}>
