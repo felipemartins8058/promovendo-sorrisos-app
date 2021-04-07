@@ -19,6 +19,10 @@ const Doencas = () => {
     navigation.goBack();
   }
 
+  function handleNavigateToCarieDentaria() {
+    navigation.navigate("CarieDentaria");
+  }
+
   return (
     <>
       <View style={styles.container}>
@@ -72,7 +76,7 @@ const Doencas = () => {
         <ScrollView style={styles.containerScroll}>
           <RectButton
             style={styles.buttonList}
-            onPress={() => {}}
+            onPress={handleNavigateToCarieDentaria}
           >
             <View style={styles.labelTextSide}>
               <Text style={styles.text}>Cárie Dentaria</Text>
