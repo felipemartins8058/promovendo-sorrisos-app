@@ -21,13 +21,17 @@ Caio Brandao - 473812, Evelyn Braga - 476070, Felipe Martins - 474433, Gabriel L
 ## Funcionalidades 
 #### Funcionalidade Básicas
 - [ ] Filtrar
-- [x] Localizar usuário - Geolocalização (https://github.com/CaioBrandz/geo/blob/main/App.js) --Problema de visualização - conflito com expo
-- [x] Gerenciar perfil do usuário (https://github.com/felipemartins8058/promovendo-sorrisos-with-firebase) --Problema de visualização - conflito com expo
+- [x] Localizar usuário - Geolocalização (https://github.com/CaioBrandz/geo/blob/main/App.js) - Problema de visualização - conflito com expo
+
+- [x] Gerenciar perfil do usuário (https://github.com/felipemartins8058/promovendo-sorrisos-with-firebase) - Problema de visualização - conflito com expo
 #### Funcionalidade Fundamentais
 - [ ] Efetuar diagnóstico
 #### Funcionalidade de Saída
 - [ ] Gerar diagnóstico
-- [x] Gerar informações da tela sobre
-- [x] Ver listagem de problemas odontologicos
-- [x] Gerar informações da doença
-- [x] Gerar visulização do mapa
+- [x] Gerar informações da tela sobre (https://github.com/felipemartins8058/promovendo-sorrisos-app/blob/master/src/pages/Sobre/index.js)
+
+- [x] Ver listagem de problemas odontologicos (https://github.com/felipemartins8058/promovendo-sorrisos-app/blob/master/src/pages/Doencas/index.js)
+
+- [x] Gerar informações da doença (https://github.com/felipemartins8058/promovendo-sorrisos-app/tree/master/src/telasDoencas)
+
+- [x] Gerar visulização do mapa (https://github.com/felipemartins8058/promovendo-sorrisos-app/blob/master/src/pages/Pontos/index.js)
