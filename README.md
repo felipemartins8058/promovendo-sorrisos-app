@@ -27,6 +27,7 @@ Caio Brandao - 473812, Evelyn Braga - 476070, Felipe Martins - 474433, Gabriel L
 - [ ] Efetuar diagnóstico
 #### Funcionalidade de Saída
 - [ ] Gerar diagnóstico
-- [x] Ver informações da tela sobre
+- [x] Gerar informações da tela sobre
 - [x] Ver listagem de problemas odontologicos
+- [x] Gerar informações da doença
 - [x] Gerar visulização do mapa
