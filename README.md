@@ -7,25 +7,30 @@ O público-alvo do projeto são pessoas com espectro autista e síndromes associ
 ## Equipe Crows(i)
 Caio Brandao - 473812, Evelyn Braga - 476070, Felipe Martins - 474433, Gabriel Lopes - 433400, Leticia Cardoso - 418913.
 ## Executável
-#### Link para baixar o executável apk: https://expo.io/artifacts/0de3cfb3-1af3-45be-8c5b-e627d0c74bd8
-#### Vídeo de demonstração do executável: https://drive.google.com/drive/folders/1IRdmIVMhgDUV_gowNyOZv6vjXBz9okoo?usp=sharing
+#### Link para baixar o executável apk: https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40martins1999/mobile-09f0376b88604e2b827d5549f341f9e9-signed.apk
+#### Vídeo de demonstração do executável: https://drive.google.com/file/d/1-8J9eBDuF3hc9-QSa-6beI9wX-KTgzJA/view?usp=sharing
 ## Interface
 - [x] Login
 - [x] Cadastro
 - [x] Tela de Atendimento
 - [ ] Diagnóstico
-- [ ] Listagem de problemas
+- [x] Listagem de problemas
 - [x] Mapa
 - [x] Sobre
 - [ ] Perfil
 ## Funcionalidades 
 #### Funcionalidade Básicas
-- [ ] Filtrar
-- [ ] Localizar usuário (Geolocalização)
-- [x] Gerenciar perfil do usuário (https://github.com/felipemartins8058/promovendo-sorrisos-with-firebase)
+- [x] Localizar usuário - Geolocalização (https://github.com/CaioBrandz/geo/blob/main/App.js) - Problema de visualização - conflito com expo
+
+- [x] Gerenciar perfil do usuário (https://github.com/felipemartins8058/promovendo-sorrisos-with-firebase) - Problema de visualização - conflito com expo
 #### Funcionalidade Fundamentais
 - [ ] Efetuar diagnóstico
 #### Funcionalidade de Saída
 - [ ] Gerar diagnóstico
-- [ ] Ver listagem de problemas odontologicos
-- [x] Gerar visulização do mapa
+- [x] Gerar informações da tela sobre (https://github.com/felipemartins8058/promovendo-sorrisos-app/blob/master/src/pages/Sobre/index.js)
+
+- [x] Ver listagem de problemas odontologicos (https://github.com/felipemartins8058/promovendo-sorrisos-app/blob/master/src/pages/Doencas/index.js)
+
+- [x] Gerar informações da doença (https://github.com/felipemartins8058/promovendo-sorrisos-app/tree/master/src/telasDoencas)
+
+- [x] Gerar visulização do mapa (https://github.com/felipemartins8058/promovendo-sorrisos-app/blob/master/src/pages/Pontos/index.js)
