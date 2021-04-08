@@ -89,7 +89,7 @@ const Doencas = () => {
 
           <RectButton
             style={styles.buttonList}
-            onPress={() => {}}
+            onPress={handleNavigateToCarieDentaria}
           >
             <View style={styles.labelTextSide}>
               <Text style={styles.text}>Luxação</Text>
@@ -102,7 +102,7 @@ const Doencas = () => {
 
           <RectButton
             style={styles.buttonList}
-            onPress={() => {}}
+            onPress={handleNavigateToCarieDentaria}
           >
             <View style={styles.labelTextSide}>
               <Text style={styles.text}>Periconarite</Text>
@@ -115,7 +115,7 @@ const Doencas = () => {
 
           <RectButton
             style={styles.buttonList}
-            onPress={() => {}}
+            onPress={handleNavigateToCarieDentaria}
           >
             <View style={styles.labelTextSide}>
               <Text style={styles.text}>Mucocele</Text>
@@ -128,7 +128,7 @@ const Doencas = () => {
 
           <RectButton
             style={styles.buttonList}
-            onPress={() => {}}
+            onPress={handleNavigateToCarieDentaria}
           >
             <View style={styles.labelTextSide}>
               <Text style={styles.text}>Amelogênese imperfeita</Text>

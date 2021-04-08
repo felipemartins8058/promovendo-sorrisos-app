@@ -46,16 +46,16 @@ const CarieDentaria = () => {
 
         <Text>Locais de Atndimento</Text>
         <View>
-          <View>
-            <RectButton onPress={() => {}}>
-              <Icon name="map-marker-alt" color="#FFFFFF" size={16} />
+          <View style={styles.flexx}>
+            <RectButton style={styles.buttonMapsInd} onPress={() => {}}>
+              <Icon name="map-marker-alt" color="#000000" size={24} />
             </RectButton>
-            <RectButton onPress={() => {}}>
-              <Icon name="map-marker-alt" color="#FFFFFF" size={16} />
+            <RectButton style={styles.buttonMapsInd} onPress={() => {}}>
+              <Icon name="map-marker-alt" color="#000000" size={24} />
             </RectButton>
           </View>
           <View>
-            <RectButton onPress={() => {}}>
+            <RectButton style={styles.buttonMaps} onPress={() => {}}>
               <Text>Ver Mapa</Text>
             </RectButton>
           </View>
@@ -107,6 +107,23 @@ const styles = StyleSheet.create({
     color: "#353535",
     fontFamily: "OpenSans_400Regular",
   },
+  buttonMaps: {
+    paddingHorizontal: 8,
+    paddingVertical: 5,
+    backgroundColor: "#FCC956",
+    borderRadius: 40
+  },
+  buttonMapsInd: {
+    paddingHorizontal: 8,
+    paddingVertical: 5,
+    backgroundColor: "#98BAFC",
+    borderRadius: 8,
+    width: 37
+  },
+    flexx:{
+      display: "flex",
+      flexDirection: "row"
+    }
 });
 
 export default CarieDentaria;
